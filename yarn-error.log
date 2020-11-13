@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express bcrypjs cors dotenv jsonwebtoken mongoose morgan helmet
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\codeflyin\AppData\Local\Microsoft\WindowsApps;C:\Users\codeflyin\AppData\Roaming\npm;C:\Users\codeflyin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\codeflyin\AppData\Local\Yarn\bin;C:\adb;C:\Program Files (x86)\ADB installer;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY\;C:\Neovim\bin;C:\Program Files\Git\cmd;C:\flutter\bin;C:\Users\codeflyin\AppData\Local\Microsoft\WindowsApps;C:\Users\codeflyin\AppData\Roaming\npm;C:\Users\codeflyin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\codeflyin\AppData\Local\Yarn\bin;C:\Users\codeflyin\AppData\Roaming\Composer\vendor\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\heroku\bin;C:\Users\codeflyin\AppData\Local\atom\bin;C:\src\flutter\bin;C:\Program Files (x86)\GitHub CLI\
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bcrypjs: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "bhi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node src/index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
